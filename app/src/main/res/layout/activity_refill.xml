@@ -5,11 +5,12 @@
 
     <LinearLayout
         android:orientation="vertical"
-        android:padding="16dp"
+        android:paddingHorizontal="48dp"
+        android:paddingVertical="64dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <EditText android:id="@+id/editTextDate" android:hint="Date" android:focusable="false"
+        <EditText android:id="@+id/editTextDate" android:hint="Date" android:focusable="true"
             android:layout_width="match_parent" android:layout_height="48dp"/>
 
         <EditText android:id="@+id/editTextSSN" android:hint="SSN"

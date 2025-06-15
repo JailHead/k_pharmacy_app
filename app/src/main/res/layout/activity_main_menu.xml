@@ -1,8 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<!-- res/layout/activity_main_menu.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
     android:background="@android:color/white">
 
-    <!-- Optionally, show welcome message -->
-</FrameLayout>
+    <TextView
+        android:id="@+id/textViewWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to the Pharmacy App!"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/buttonRefill"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="8dp"
+        android:elevation="4dp"
+        android:text="Refill"
+        android:textColor="@android:color/white"
+        android:background="@drawable/custom_button" />
+
+    <Button
+        android:id="@+id/buttonProducts"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Products"
+        android:layout_marginVertical="8dp"
+        android:background="@drawable/custom_button"
+        android:textColor="@android:color/white"
+        android:elevation="4dp" />
+
+    <Button
+        android:id="@+id/buttonMyRecipes"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="My Recipes"
+        android:layout_marginVertical="8dp"
+        android:background="@drawable/custom_button"
+        android:textColor="@android:color/white"
+        android:elevation="4dp" />
+
+    <Button
+        android:id="@+id/buttonAboutUs"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="About Us"
+        android:layout_marginVertical="8dp"
+        android:background="@drawable/custom_button"
+        android:textColor="@android:color/white"
+        android:elevation="4dp" />
+
+    <Button
+        android:id="@+id/buttonLogout"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/logout_button"
+        android:textColor="#901E3E"
+        android:elevation="4dp" />
+
+</LinearLayout>
