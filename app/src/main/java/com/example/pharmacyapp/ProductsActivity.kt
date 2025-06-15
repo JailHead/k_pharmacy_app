@@ -30,7 +30,6 @@ class ProductsActivity : AppCompatActivity() {
         productPresentation = findViewById(R.id.textViewProductPresentation)
         productCost = findViewById(R.id.textViewProductCost)
 
-        // Sample products (images should be in drawable folder)
         products = listOf(
             Product("Paracetamol", "Pain and fever reducer", "Tablet", "$5.00", R.drawable.ic_paracetamol),
             Product("Ibuprofen", "Anti-inflammatory and analgesic", "Capsule", "$6.50", R.drawable.ic_ibuprofen),

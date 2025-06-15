@@ -14,7 +14,8 @@
         <activity android:name=".MyRecipesActivity" />
         <activity android:name=".ProductsActivity" />
         <activity android:name=".RefillActivity" />
-        <activity android:name=".MainMenuActivity" />
+        <activity android:name=".MainMenuActivity"
+            android:theme="@style/Theme.MaterialComponents.DayNight.DarkActionBar" />
         <activity android:name=".LoginActivity"
             android:exported="true">
             <intent-filter>

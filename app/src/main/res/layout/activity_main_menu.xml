@@ -12,60 +12,12 @@
         android:id="@+id/textViewWelcome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:paddingHorizontal="48dp"
         android:text="Welcome to the Pharmacy App!"
-        android:textSize="20sp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textSize="32sp"
+        android:textAlignment="center"
         android:textStyle="bold"
-        android:textColor="@android:color/black"
-        android:layout_marginBottom="24dp" />
-
-    <Button
-        android:id="@+id/buttonRefill"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
-        android:layout_marginVertical="8dp"
-        android:elevation="4dp"
-        android:text="Refill"
-        android:textColor="@android:color/white"
-        android:background="@drawable/custom_button" />
-
-    <Button
-        android:id="@+id/buttonProducts"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
-        android:text="Products"
-        android:layout_marginVertical="8dp"
-        android:background="@drawable/custom_button"
-        android:textColor="@android:color/white"
-        android:elevation="4dp" />
-
-    <Button
-        android:id="@+id/buttonMyRecipes"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
-        android:text="My Recipes"
-        android:layout_marginVertical="8dp"
-        android:background="@drawable/custom_button"
-        android:textColor="@android:color/white"
-        android:elevation="4dp" />
-
-    <Button
-        android:id="@+id/buttonAboutUs"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
-        android:text="About Us"
-        android:layout_marginVertical="8dp"
-        android:background="@drawable/custom_button"
-        android:textColor="@android:color/white"
-        android:elevation="4dp" />
-
-    <Button
-        android:id="@+id/buttonLogout"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
-        android:text="Logout"
-        android:layout_marginTop="24dp"
-        android:background="@drawable/logout_button"
-        android:textColor="#901E3E"
-        android:elevation="4dp" />
+        android:textColor="@android:color/black" />
 
 </LinearLayout>
