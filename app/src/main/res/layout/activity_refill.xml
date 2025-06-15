@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText android:id="@+id/editTextDate" android:hint="Date" android:focusable="false"
+            android:layout_width="match_parent" android:layout_height="48dp"/>
+
+        <EditText android:id="@+id/editTextSSN" android:hint="SSN"
+            android:layout_width="match_parent" android:layout_height="48dp"/>
+
+        <EditText android:id="@+id/editTextFirstName" android:hint="First Name"
+            android:layout_width="match_parent" android:layout_height="48dp"/>
+
+        <EditText android:id="@+id/editTextLastName" android:hint="Last Name"
+            android:layout_width="match_parent" android:layout_height="48dp"/>
+
+        <EditText android:id="@+id/editTextAddress" android:hint="Address"
+            android:layout_width="match_parent" android:layout_height="48dp"/>
+
+        <Spinner android:id="@+id/spinnerMedication"
+            android:layout_width="match_parent" android:layout_height="48dp"/>
+
+        <Spinner android:id="@+id/spinnerPresentation"
+            android:layout_width="match_parent" android:layout_height="48dp"/>
+
+        <EditText android:id="@+id/editTextPhone" android:hint="Contact Phone"
+            android:inputType="phone"
+            android:layout_width="match_parent" android:layout_height="48dp"
+            android:layout_marginBottom="16dp"/>
+
+        <Button android:id="@+id/buttonRegister" android:text="Register"
+            android:layout_width="match_parent" android:layout_height="wrap_content" />
+
+        <Button android:id="@+id/buttonCancel" android:text="Cancel"
+            android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

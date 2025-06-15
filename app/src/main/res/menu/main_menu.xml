@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_refill" android:title="Refill" />
+    <item android:id="@+id/menu_products" android:title="Products" />
+    <item android:id="@+id/menu_my_recipes" android:title="My Recipes" />
+    <item android:id="@+id/menu_about_us" android:title="About Us" />
+    <item android:id="@+id/menu_logout" android:title="Logout" />
+</menu>
